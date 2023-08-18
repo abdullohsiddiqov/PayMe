@@ -47,6 +47,16 @@ body {
   line-height: 24px;
   padding-bottom: 21px;
 }
+.register_container .box .phone_register .password {
+  color: #888894;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  padding-left: 16px;
+  padding-bottom: 5px;
+}
 .register_container .box .phone_register .number {
   color: #888894;
   font-family: Inter;
@@ -88,7 +98,7 @@ body {
   border-left: none;
   background: #FFF;
   outline: none;
-  color: #888894;
+  color: black;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -124,4 +134,84 @@ body {
   border-top: 1px solid #2ACED0;
   border-right: 1px solid #2ACED0;
   border-bottom: 1px solid #2ACED0;
+}
+
+.input_pass_box {
+  padding-bottom: 41px;
+}
+.input_pass_box .password_input {
+  width: 347px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #DFDFE4;
+  background: #FFF;
+  color: black;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 14px;
+  outline: none;
+}
+.input_pass_box .password_input.password_input::-moz-placeholder {
+  color: #CDCDD2;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input_pass_box .password_input.password_input:-ms-input-placeholder {
+  color: #CDCDD2;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input_pass_box .password_input.password_input::placeholder {
+  color: #CDCDD2;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 83px;
+}
+.flex2 a {
+  color: #2ACED0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.5px; /* 150% */
+  text-decoration: none;
+}
+.flex2 button {
+  width: 160px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #2ACED0;
+  background: #2ACED0;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.5px; /* 150% */
+  border: none;
+  cursor: pointer;
+}
+.flex2 button:hover {
+  background-color: turquoise;
+  transition: 0.3s;
 }
