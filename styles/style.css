@@ -7,9 +7,121 @@
 body {
   margin: 0;
   padding: 0;
+  background: #F6F8F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-svg {
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_pay {
   width: 100px;
   height: 100px;
+  padding-bottom: 23px;
+}
+
+.register_container {
+  width: 445px;
+  height: 500px;
+  border-radius: 12px;
+  background: #F6F8F9;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+  padding: 48px;
+}
+.register_container .box .text {
+  color: #3F3F46;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 21px;
+}
+.register_container .box .phone_register .number {
+  color: #888894;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  padding-left: 16px;
+  cursor: default;
+  padding-bottom: 4px;
+}
+.register_container .box .phone_register .number_box {
+  width: 60px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px 0px 0px 12px;
+  border-top: 1px solid #DFDFE4;
+  border-bottom: 1px solid #DFDFE4;
+  border-left: 1px solid #DFDFE4;
+  background: #FFF;
+  color: #888894;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.register_container .box .phone_register .input_num_box .number_input {
+  width: 288px;
+  height: 48px;
+  border-radius: 0px 12px 12px 0px;
+  border-top: 1px solid #DFDFE4;
+  border-right: 1px solid #DFDFE4;
+  border-bottom: 1px solid #DFDFE4;
+  border-left: none;
+  background: #FFF;
+  outline: none;
+  color: #888894;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.register_container .box .phone_register .input_num_box .number_input.number_input::-moz-placeholder {
+  color: #CDCDD2;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.register_container .box .phone_register .input_num_box .number_input.number_input:-ms-input-placeholder {
+  color: #CDCDD2;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.register_container .box .phone_register .input_num_box .number_input.number_input::placeholder {
+  color: #CDCDD2;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.register_container .box .phone_register .input_num_box .number_input.number_input:focus {
+  border-top: 1px solid #2ACED0;
+  border-right: 1px solid #2ACED0;
+  border-bottom: 1px solid #2ACED0;
 }
