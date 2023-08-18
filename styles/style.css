@@ -134,6 +134,7 @@ body {
   border-top: 1px solid #2ACED0;
   border-right: 1px solid #2ACED0;
   border-bottom: 1px solid #2ACED0;
+  transition: 0.3s;
 }
 
 .input_pass_box {
@@ -177,6 +178,10 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.input_pass_box .password_input.password_input:focus {
+  border: 1px solid #2ACED0;
+  transition: 0.3s;
 }
 
 .flex2 {

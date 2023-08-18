@@ -113,6 +113,7 @@ body{
                         border-top: 1px solid #2ACED0;
                         border-right: 1px solid #2ACED0;
                         border-bottom: 1px solid #2ACED0;
+                        transition: .3s;
                     }
                 }
             }
@@ -142,6 +143,10 @@ body{
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+        }
+        &.password_input:focus{ 
+            border: 1px solid #2ACED0;
+            transition: .3s;
         }
     }
 }
