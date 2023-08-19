@@ -4,11 +4,13 @@ let btn:HTMLButtonElement = document.querySelector('.btn')!;
 let password_input:HTMLInputElement = document.querySelector('.password_input')!;
 function InformationFNC(){ 
     btn.addEventListener('click', () =>{ 
-
         if(password_input.value === ""){ 
             password_input.style.border = "1px solid red";
             // number = null || number_input.value;
         }
+        if(number_input.value.length === 13){ 
+            alert("Please enter a 12 digits")
+        } 
         if(number_input.value === ""){ 
             number_input.style.border = "1px solid red";
             // password = null || password_input.value;
